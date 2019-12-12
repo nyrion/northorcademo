@@ -1,0 +1,77 @@
+{
+  "_from": "cordova-plugin-antitampering",
+  "_id": "cordova-plugin-antitampering@0.4.2",
+  "_inBundle": false,
+  "_integrity": "sha512-Q8Hstvm1Ki7MauSF9pjzQO6xavWW3UipzaRrGkzXxNDnwZFMYhija8SFVE4i1gvGa60zc6N7S5ADC13W6wh4EQ==",
+  "_location": "/cordova-plugin-antitampering",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-antitampering",
+    "name": "cordova-plugin-antitampering",
+    "escapedName": "cordova-plugin-antitampering",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-antitampering/-/cordova-plugin-antitampering-0.4.2.tgz",
+  "_shasum": "de776728c09da7b4c4dd5c362480ba33b4148501",
+  "_spec": "cordova-plugin-antitampering",
+  "_where": "/System/Volumes/Data/cloud/nyrion/www/mobile-app",
+  "author": {
+    "name": "duddu"
+  },
+  "bugs": {
+    "url": "https://github.com/duddu/cordova-plugin-antitampering/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-antitampering",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Verify the integrity of cordova static assets - Android / iOS",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^7.1.0",
+    "colors": "^1.3.0",
+    "eslint": "^6.4.0",
+    "jszip": "^3.2.0",
+    "mocha": "^6.2.0",
+    "wd": "^1.11.4"
+  },
+  "homepage": "https://github.com/duddu/cordova-plugin-antitampering#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova",
+    "anti-tampering",
+    "tampering",
+    "security"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-antitampering",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duddu/cordova-plugin-antitampering.git"
+  },
+  "scripts": {
+    "appium-android": "mocha tests/appium/android.js",
+    "appium-ios": "mocha tests/appium/ios.js",
+    "lint": "eslint \"+(scripts|tests|www)/**/*.js\"",
+    "sign-tampered-apk": "jarsigner -verbose -keystore $HOME/.android/debug.keystore -storepass android -keypass android $TRAVIS_BUILD_DIR/tests/android-tampered.apk androiddebugkey",
+    "tamper-android": "node tests/tamper/android.js && npm run sign-tampered-apk",
+    "tamper-ios": "npm run zip-ios-pristine-app && node tests/tamper/ios.js && cd $IOS_BUILD_DIR && zip -r $TRAVIS_BUILD_DIR/tests/ios-tampered.zip HelloWorld.app",
+    "zip-ios-pristine-app": "cd $IOS_BUILD_DIR && zip -r $TRAVIS_BUILD_DIR/tests/ios.zip HelloWorld.app"
+  },
+  "version": "0.4.2"
+}

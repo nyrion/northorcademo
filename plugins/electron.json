@@ -1,0 +1,76 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-antitampering": {
+      "EXCLUDE_ASSETS_EXTENSIONS": " ",
+      "ENABLE_CORDOVA_CALLBACK": "false",
+      "ENABLE_DEBUG_DETECTION": "false",
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-app-version": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-exit": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-purchase": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-zeroconf": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-add-swift-support": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    },
+    "cordova-support-android-plugin": {
+      "PACKAGE_NAME": "com.nyrion.orca"
+    }
+  }
+}

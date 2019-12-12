@@ -1,0 +1,14 @@
+{
+  "browserWindow": {
+    "height": 768,
+    "webPreferences": {
+      "devTools": true,
+      "nodeIntegration": false
+    },
+    "width": 1024,
+    "resizable": false
+  },
+  "webPreferences": {
+    "nodeIntegration": false
+  }
+}

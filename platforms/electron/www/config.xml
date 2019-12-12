@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.nyrion.orca" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>North Orca</name>
+    <description>
+        Demonstration For North Orca
+    </description>
+    <author email="support@nyrion.ca" href="https://nyrion.ca">
+        Cole B
+    </author>
+    <content src="index.html" />
+    <access origin="https://*.nyrion.ca" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <icon src="res/electron/icon.png" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="EnbleWebGL" value="true" />
+    <preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
+    <preference name="SplashScreen" value="img/icon.png" />
+</widget>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.nyrion.orca" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>North Orca</name>
+    <description>
+        Demonstration For North Orca
+    </description>
+    <author email="support@nyrion.ca" href="https://nyrion.ca">
+        Cole B
+    </author>
+    <content src="index.html" />
+    <access origin="https://*.nyrion.ca" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <icon density="ldpi" src="res/android/LDPI-Icon-36x36.png" />
+    <icon density="mdpi" src="res/android/MDPI-Icon-48x48.png" />
+    <icon density="hdpi" src="res/android/HDPI-Icon-72x72.png" />
+    <icon density="xhdpi" src="res/android/XHDPI-Icon-96x96.png" />
+    <icon density="xxhdpi" src="res/android/XXHDPI-Icon-144x144.png" />
+    <icon density="xxxhdpi" src="res/android/XXXHDPI-Icon-192x192.png" />
+    <splash density="land-hdpi" src="res/screen/android/HDPI-Splash-800x480-Landscape.png" />
+    <splash density="land-ldpi" src="res/screen/android/LDPI-Splash-320x200-Landscape.png" />
+    <splash density="land-mdpi" src="res/screen/android/MDPI-Splash-480x320-Landscape.png" />
+    <splash density="land-xhdpi" src="res/screen/android/XHDPI-Splash-1280x720-Landscape.png" />
+    <splash density="land-xxhdpi" src="res/screen/android/XXHDPI-Splash-1600x960-Landscape.png" />
+    <splash density="land-xxxhdpi" src="res/screen/android/XXXHDPI-Splash-1920x1280-Lanscape.png" />
+    <splash density="port-hdpi" src="res/screen/android/HDPI-Splash-480x800-Portrait.png" />
+    <splash density="port-ldpi" src="res/screen/android/LDPI-Splash-200x320-Portrait.png" />
+    <splash density="port-mdpi" src="res/screen/android/MDPI-Splash-320x480-Portrait.png" />
+    <splash density="port-xhdpi" src="res/screen/android/XHDPI-Splash-720x1280-Portrait.png" />
+    <splash density="port-xxhdpi" src="res/screen/android/XXHDPI-Splash-960x1600-Portrait.png" />
+    <splash density="port-xxxhdpi" src="res/screen/android/XXXHDPI-Splash-1280x1920-Portrait.png" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Fullscreen" value="true" />
+    <preference name="EnbleWebGL" value="true" />
+    <feature name="AntiTamperingPlugin">
+        <param name="android-package" value="com.duddu.antitampering.AntiTamperingPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="AppVersion">
+        <param name="android-package" value="uk.co.whiteoctober.cordova.AppVersion" />
+    </feature>
+    <feature name="Badge">
+        <param name="android-package" value="de.appplant.cordova.plugin.badge.Badge" />
+    </feature>
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Exit">
+        <param name="android-package" value="im.ckk.cordova.exit.Exit" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="LocalNotification">
+        <param name="android-package" value="de.appplant.cordova.plugin.localnotification.LocalNotification" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="InAppBillingPlugin">
+        <param name="android-package" value="cc.fovea.PurchasePlugin" />
+    </feature>
+    <feature name="CDVOrientation">
+        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="ZeroConf">
+        <param name="android-package" value="net.becvert.cordova.ZeroConf" />
+    </feature>
+</widget>

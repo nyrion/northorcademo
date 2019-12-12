@@ -1,0 +1,72 @@
+{
+  "_from": "eeschiavo-cordova-plugin-clipboard",
+  "_id": "eeschiavo-cordova-plugin-clipboard@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-jQciqvO8sgeHRYJBFwC1zexsgdjnJgV5AB8Z8NsMbZvAj0xoQMjbeAMDODRKUD+diiKwqs+qSY71ANYCIeE+mw==",
+  "_location": "/eeschiavo-cordova-plugin-clipboard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "eeschiavo-cordova-plugin-clipboard",
+    "name": "eeschiavo-cordova-plugin-clipboard",
+    "escapedName": "eeschiavo-cordova-plugin-clipboard",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/eeschiavo-cordova-plugin-clipboard/-/eeschiavo-cordova-plugin-clipboard-1.0.2.tgz",
+  "_shasum": "952b0248dc6eba8b022c4f45d513e5ffa3cc23d3",
+  "_spec": "eeschiavo-cordova-plugin-clipboard",
+  "_where": "/System/Volumes/Data/cloud/nyrion/www/mobile-app",
+  "author": {
+    "name": "Ernesto Schiavo"
+  },
+  "bugs": {
+    "url": "https://github.com/eeschiavo/cordova-plugin-clipboard/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "eeschiavo-cordova-plugin-clipboard",
+    "platforms": [
+      "ios",
+      "android",
+      "wp8",
+      "windows"
+    ]
+  },
+  "deprecated": false,
+  "description": "Clipboard management plugin for Cordova/PhoneGap",
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=4.0.0"
+    }
+  ],
+  "homepage": "https://github.com/eeschiavo/cordova-plugin-clipboard#readme",
+  "keywords": [
+    "clipboard",
+    "copy",
+    "paste",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-wp8",
+    "cordova-windows"
+  ],
+  "license": "MIT",
+  "main": "clipboard.js",
+  "name": "eeschiavo-cordova-plugin-clipboard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eeschiavo/cordova-plugin-clipboard.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

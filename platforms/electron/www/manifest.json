@@ -1,0 +1,18 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "orientation": "any",
+  "start_url": "index.html",
+  "name": "North Orca",
+  "short_name": "North Orca",
+  "version": "com.nyrion.orca",
+  "description": "Demonstration For North Orca",
+  "author": "Cole B",
+  "icons": [
+    {
+      "src": "res/electron/icon.png",
+      "type": "image/png",
+      "sizes": "undefinedxundefined"
+    }
+  ]
+}

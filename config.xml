@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.nyrion.orca" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>North Orca</name>
+    <description>
+        Demonstration For North Orca
+    </description>
+    <author email="support@nyrion.ca" href="https://nyrion.ca">
+        Cole B
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="https://*.nyrion.ca" />
+    <allow-navigation href="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+
+        <icon src="res/android/LDPI-Icon-36x36.png" density="ldpi" />
+        <icon src="res/android/MDPI-Icon-48x48.png" density="mdpi" />
+        <icon src="res/android/HDPI-Icon-72x72.png" density="hdpi" />
+        <icon src="res/android/XHDPI-Icon-96x96.png" density="xhdpi" />
+        <icon src="res/android/XXHDPI-Icon-144x144.png" density="xxhdpi" />
+        <icon src="res/android/XXXHDPI-Icon-192x192.png" density="xxxhdpi" />
+
+        <splash src="res/screen/android/HDPI-Splash-800x480-Landscape.png" density="land-hdpi"/>
+        <splash src="res/screen/android/LDPI-Splash-320x200-Landscape.png" density="land-ldpi"/>
+        <splash src="res/screen/android/MDPI-Splash-480x320-Landscape.png" density="land-mdpi"/>
+        <splash src="res/screen/android/XHDPI-Splash-1280x720-Landscape.png" density="land-xhdpi"/>
+        <splash src="res/screen/android/XXHDPI-Splash-1600x960-Landscape.png" density="land-xxhdpi"/>
+        <splash src="res/screen/android/XXXHDPI-Splash-1920x1280-Lanscape.png" density="land-xxxhdpi"/>
+
+        <splash src="res/screen/android/HDPI-Splash-480x800-Portrait.png" density="port-hdpi"/>
+        <splash src="res/screen/android/LDPI-Splash-200x320-Portrait.png" density="port-ldpi"/>
+        <splash src="res/screen/android/MDPI-Splash-320x480-Portrait.png" density="port-mdpi"/>
+        <splash src="res/screen/android/XHDPI-Splash-720x1280-Portrait.png" density="port-xhdpi"/>
+        <splash src="res/screen/android/XXHDPI-Splash-960x1600-Portrait.png" density="port-xxhdpi"/>
+        <splash src="res/screen/android/XXXHDPI-Splash-1280x1920-Portrait.png" density="port-xxxhdpi"/>
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+
+        <icon src="res/ios/Icon-Small@3x.png" width="87" height="87" />
+        <icon src="res/ios/Icon-Small@2x.png" width="58" height="58" />
+        <icon src="res/ios/Icon-Small.png" width="29" height="29" />
+        <icon src="res/ios/Icon-Small-40@3x.png" width="120" height="120" />
+        <icon src="res/ios/Icon-Small-40@2x.png" width="80" height="80" />
+        <icon src="res/ios/Icon-Small-40.png" width="40" height="40" />
+        <icon src="res/ios/Icon-83.5@2x.png" width="167" height="167" />
+        <icon src="res/ios/Icon-76@2x.png" width="152" height="152" />
+        <icon src="res/ios/Icon-76.png" width="76" height="76" />
+        <icon src="res/ios/Icon-60@3x.png" width="180" height="180" />
+        <icon src="res/ios/Icon-60@2x.png" width="120" height="120" />
+
+        <splash src="res/screen/ios/Default@2x.png" width="640" height="960"/>
+        <splash src="res/screen/ios/Default-Portrait@2x.png" width="1536" height="2048"/>
+        <splash src="res/screen/ios/Default-Portrait.png" width="768" height="1024"/>
+        <splash src="res/screen/ios/Default-Portrait-2688h@3x.png" width="1242" height="2688"/>
+        <splash src="res/screen/ios/Default-Portrait-1792h@2x.png" width="828" height="1792"/>
+        <splash src="res/screen/ios/Default-Portrait-1536h@2x.png" width="1536" height="2048"/>
+        <splash src="res/screen/ios/Default-Portrait-1242h@3x.png" width="1242" height="2208"/>
+        <splash src="res/screen/ios/Default-Portrait-1125h@3x.png" width="1125" height="2436"/>
+        <splash src="res/screen/ios/Default-Portrait-750h@2x.png" width="750" height="1334"/>
+        <splash src="res/screen/ios/Default-Portrait-736h@3x.png" width="1242" height="2208"/>
+        <splash src="res/screen/ios/Default-Portrait-640h@2x.png" width="640" height="1136"/>
+        <splash src="res/screen/ios/Default-Landscape@2x.png" width="2048" height="1536"/>
+        <splash src="res/screen/ios/Default-Landscape.png" width="1024" height="768"/>
+        <splash src="res/screen/ios/Default-Landscape-2688h@3x.png" width="2688" height="1242"/>
+        <splash src="res/screen/ios/Default-Landscape-2436h@3x.png" width="2436" height="1125"/>
+        <splash src="res/screen/ios/Default-Landscape-2208h@3x.png" width="2208" height="1242"/>
+        <splash src="res/screen/ios/Default-Landscape-1792h@2x.png" width="1792" height="828"/>
+        <splash src="res/screen/ios/Default-Landscape-1536h@2x.png" width="2048" height="1536"/>
+        <splash src="res/screen/ios/Default-Landscape-1136h@2x.png" width="1136" height="640"/>
+        <splash src="res/screen/ios/Default-Landscape-1134h@2x.png" width="1334" height="750"/>
+        <splash src="res/screen/ios/Default-Landscape-736h@3x.png" width="2208" height="1242"/>
+        <splash src="res/screen/ios/Default-667h@2x.png" width="750" height="1334"/>
+        <splash src="res/screen/ios/Default-568h@2x.png" width="640" height="1136"/>
+    </platform>
+    <platform name="electron">
+        <preference name="ElectronSettingsFilePath" value="res/electron/settings.json" />
+
+        <icon src="res/electron/icon.png" />
+
+        <preference name="SplashScreen" value="img/icon.png" />
+    </platform>
+    <preference name="DisallowOverscroll" value="true"/>
+    <preference name="Fullscreen" value="true" />
+    <preference name="EnbleWebGL" value="true" />
+</widget>
