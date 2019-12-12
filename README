@@ -1,0 +1,41 @@
+Hello, North Orca!
+
+===
+Where's the code?
+===
+
+See www/js/index.js
+    - It's the most relevant
+
+See www/php/neigh.php
+    - Local copy of the script deployed at https://orca.nyrion.ca/neigh.php
+        - With authentication info removed of course as this is a public git repo
+====
+MySQL
+====
+
+PhpMyAdmin: See package sent to you
+
+Host: See package sent to you
+Username: See package sent to you
+Password: See package sent to you
+Port: See package sent to you
+
+====
+Build It! (Mac OS)
+====
+
+Run ./deploy.sh
+
+or..
+
+* You'll need cordova installed locally
+
+cordova build electron --release
+cordova build electron --nobuild # For Testing/Debugging
+
+cordova build ios
+    - Will need Xcode + A Developer Account To
+    - Can also install to device through Xcode
+cordova build android
+    - Will need Android Studio Installed
